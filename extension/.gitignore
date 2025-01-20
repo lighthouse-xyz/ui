@@ -1,0 +1,20 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# build
+/dist
+
+# etc
+.DS_Store
+.env.local
+.idea
+vite.config.ts.timestamp-*
+
+#generated manifest
+public/manifest.json
+vite-utils/reload/*.js
+!vite-utils/reload/rollup.config.js
+vite-utils/reload/injections/*.js

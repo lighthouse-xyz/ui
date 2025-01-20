@@ -1,0 +1,157 @@
+{
+  "extends": ["./.eslintrc-base.json", "plugin:cypress/recommended"],
+  "overrides": [
+    {
+      "extends": ["plugin:react/recommended"],
+      "files": ["*.ts", "*.tsx"],
+      "plugins": ["react", "cypress"],
+      "rules": {
+        "complexity": ["error", 18],
+        "no-magic-numbers": [
+          "error",
+          {
+            "ignore": [-1, 0, 1, 2]
+          }
+        ],
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "default",
+            "format": ["camelCase"],
+            "leadingUnderscore": "allow",
+            "trailingUnderscore": "allow"
+          },
+          {
+            "selector": "typeLike",
+            "format": ["PascalCase"]
+          },
+          // Above this point, this is the default config of the rule that we need to copy/paste.
+          {
+            "selector": "variable",
+            "format": ["PascalCase", "camelCase"],
+            "leadingUnderscore": "allow",
+            "trailingUnderscore": "allow"
+          },
+          {
+            "selector": "objectLiteralProperty",
+            // Allowing PascalCase for react configs.
+            "format": ["PascalCase", "camelCase"]
+          },
+          {
+            "selector": "objectLiteralProperty",
+            // Allowing any format when quoted for SASS selectors and HTML properties.
+            "format": null,
+            "modifiers": ["requiresQuotes"]
+          },
+          {
+            "selector": "objectLiteralProperty",
+            "format": null,
+            "filter": {
+              "regex": "^(__typename)$",
+              "match": true
+            }
+          },
+          {
+            "selector": "property",
+            "format": null,
+            "filter": {
+              "regex": "^(__typename)$",
+              "match": true
+            }
+          }
+        ],
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          {
+            "allowExpressions": true
+          }
+        ],
+        // Will be set to error in the base config as soon as the rule supports decorators.
+        // https://github.com/typescript-eslint/typescript-eslint/issues/4719
+        "@typescript-eslint/explicit-member-accessibility": [
+          "error",
+          {
+            "overrides": {
+              "constructors": "no-public"
+            }
+          }
+        ],
+        "max-lines-per-function": [
+          "error",
+          {
+            "max": 200
+          }
+        ]
+      }
+    },
+    {
+      "files": "*.tsx",
+      "rules": {
+        "simple-import-sort/imports": [
+          "error",
+          {
+            "groups": [
+              // Packages. `react` related packages come first.
+              ["^react"]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "processor": "@graphql-eslint/graphql"
+    },
+    {
+      "files": ["*.graphql"],
+      "extends": ["plugin:@graphql-eslint/operations-all"],
+      "parserOptions": {
+        "documents": "./src/**/*.{tsx,ts}",
+        "operations": "./src/**/*.{tsx,ts}",
+        "schema": [
+          "https://api.lighthouse.world/discovery/graphql",
+          "https://api.lighthouse.world/user/graphql",
+          "src/common/graphql/fragments.graphql.ts"
+        ]
+      },
+      "rules": {
+        "@graphql-eslint/executable-definitions": "off",
+        "@graphql-eslint/no-deprecated": "warn",
+        "@graphql-eslint/no-one-place-fragments": "off"
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "processor": "@graphql-eslint/graphql",
+      "extends": ["plugin:prettier/recommended"]
+    },
+    {
+      "files": ["*.graphql"],
+      "parser": "@graphql-eslint/eslint-plugin",
+      "plugins": ["@graphql-eslint"],
+      "rules": {
+        "prettier/prettier": "error"
+      }
+    },
+    {
+      "files": ["common.json"],
+      "rules": {
+        "sort-keys": ["error", "asc", { "caseSensitive": false }]
+      }
+    },
+    {
+      "plugins": [
+        "react-hooks"
+      ],
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "react-hooks/rules-of-hooks": "error"
+      }
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

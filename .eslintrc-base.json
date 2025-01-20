@@ -1,0 +1,199 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "extends": [
+        "eslint:recommended",
+        "plugin:prettier/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+      ],
+      "plugins": [
+        "@typescript-eslint",
+        "filenames-simple",
+        "jest",
+        "prettier",
+        "simple-import-sort"
+      ],
+      "rules": {
+        "complexity": [
+          "error",
+          10
+        ],
+        "consistent-return": "error",
+        "curly": "error",
+        "default-case": "error",
+        "eol-last": [
+          "error",
+          "always"
+        ],
+        "eqeqeq": [
+          "error",
+          "smart"
+        ],
+        "no-caller": "error",
+        "no-duplicate-imports": "error",
+        "no-sequences": "error",
+        "no-unreachable-loop": "error",
+        "no-console": "error",
+        "max-lines": [
+          "error",
+          {
+            "max": 350,
+            "skipBlankLines": true
+          }
+        ],
+        "max-len": [
+          "error",
+          {
+            "code": 120,
+            "ignoreUrls": true,
+            "ignorePattern": "^import .*"
+          }
+        ],
+        "max-lines-per-function": [
+          "error",
+          {
+            "max": 100
+          }
+        ],
+        "max-params": [
+          "error",
+          7
+        ],
+        "no-magic-numbers": [
+          "error",
+          {
+            "ignore": [
+              -1,
+              0,
+              1
+            ]
+          }
+        ],
+        "no-multiple-empty-lines": [
+          "error"
+        ],
+        "no-multi-spaces": "error",
+        "no-self-compare": "error",
+        "no-use-before-define": "error",
+        "object-shorthand": "error",
+        "prefer-const": "error",
+        "prefer-promise-reject-errors": [
+          "error"
+        ],
+        "filenames-simple/naming-convention": [
+          "error",
+          {
+            "rule": "kebab-case"
+          }
+        ],
+        "simple-import-sort/exports": "error",
+        "simple-import-sort/imports": "error",
+        "no-empty-function": "off",
+        "no-shadow": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/consistent-type-assertions": [
+          "error",
+          {
+            "assertionStyle": "as"
+          }
+        ],
+        "@typescript-eslint/explicit-function-return-type": [
+          "error"
+        ],
+        "@typescript-eslint/member-ordering": [
+          "error"
+        ],
+        // Warning until the rule supports decorators.
+        // https://github.com/typescript-eslint/typescript-eslint/issues/4719
+        "@typescript-eslint/explicit-member-accessibility": [
+          "warn",
+          {
+            "overrides": {
+              "constructors": "no-public"
+            }
+          }
+        ],
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": "default",
+            "format": [
+              "strictCamelCase"
+            ],
+            "leadingUnderscore": "allow",
+            "trailingUnderscore": "allow"
+          },
+          {
+            "selector": "variable",
+            "format": [
+              "strictCamelCase"
+            ],
+            "leadingUnderscore": "allow",
+            "trailingUnderscore": "allow"
+          },
+          {
+            "selector": "typeLike",
+            "format": [
+              "StrictPascalCase"
+            ]
+          }
+        ],
+        "@typescript-eslint/no-empty-function": [
+          "error",
+          {
+            "allow": [
+              "constructors"
+            ]
+          }
+        ],
+        "@typescript-eslint/no-require-imports": "error",
+        "@typescript-eslint/no-shadow": [
+          "error"
+        ],
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_"
+          }
+        ],
+        "@typescript-eslint/prefer-for-of": "error"
+      }
+    },
+    {
+      "files": [
+        "*.test.ts",
+        "*.spec.ts"
+      ],
+      "rules": {
+        "max-lines-per-function": [
+          "error",
+          {
+            "max": 300
+          }
+        ],
+        "no-magic-numbers": "off"
+      }
+    }
+  ]
+}

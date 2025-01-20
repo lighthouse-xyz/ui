@@ -1,0 +1,67 @@
+overwrite: true
+documents: null
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+generates:
+  ./src/common/graphql/generated/discovery.schema.graphql.ts:
+    schema: https://api.lighthouse.world/discovery/graphql
+    plugins:
+      - typescript
+    config:
+      strictScalars: true
+      scalars:
+        BlockchainAddress: string
+        DateTime: string
+        EntityId: string
+        EntityOrUserId: string
+        EstateId: string
+        EventId: string
+        FresnelOwnerId: string
+        JSONObject: Record<string, unknown>
+        JWT: string
+        ParcelId: string
+        Upload: File
+        UserId: string
+        URL: string
+      namingConvention:
+        enumValues: keep
+      maybeValue: "T"
+      inputMaybeValue: "T | null"
+
+  ./src/hooks/discovery/discovery.graphql:
+    schema: https://api.lighthouse.world/discovery/graphql
+    plugins:
+      - "schema-ast"
+
+  ./src/common/graphql/generated/user.schema.graphql.ts:
+    schema: https://api.lighthouse.world/user/graphql
+    plugins:
+      - typescript
+    config:
+      strictScalars: true
+      scalars:
+        AkuChapterId: string
+        AkuQuestId: string
+        BlockchainAddress: string
+        DateTime: string
+        EntityId: string
+        EntityOrUserId: string
+        EstateId: string
+        EventId: string
+        FresnelOwnerId: string
+        JSONObject: Record<string, unknown>
+        JWT: string
+        ParcelId: string
+        Upload: File
+        UserId: string
+        URL: string
+      namingConvention:
+        enumValues: keep
+      maybeValue: "T"
+      inputMaybeValue: "T | null"
+
+  ./src/hooks/user/user.graphql:
+    schema: https://api.lighthouse.world/user/graphql
+    plugins:
+      - "schema-ast"

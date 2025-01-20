@@ -1,0 +1,16 @@
+{
+  "New component without props": {
+    "prefix": ["cnp", "component", "component-file"],
+    "body": ["import React from \"react\"\n", "const ${TM_FILENAME_BASE/^(.)(.+?)(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?\\..+/${1:/upcase}$2${4:/upcase}$5${7:/upcase}$8${10:/upcase}$11${13:/upcase}$14${16:/upcase}$17/g}: React.FC = () => {", "\treturn (", "\t);", "};\n", "export default ${TM_FILENAME_BASE/^(.)(.+?)(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?\\..+/${1:/upcase}$2${4:/upcase}$5${7:/upcase}$8${10:/upcase}$11${13:/upcase}$14${16:/upcase}$17/g};\n"],
+    "description": "A new React functional component without props"
+  },
+  "New component with props": {
+    "prefix": ["cwp", "component-with-props", "component-props"],
+    "body": ["import React from \"react\"\n", "interface Props {", "\t", "}\n", "const ${TM_FILENAME_BASE/^(.)(.+?)(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?\\..+/${1:/upcase}$2${4:/upcase}$5${7:/upcase}$8${10:/upcase}$11${13:/upcase}$14${16:/upcase}$17/g}: React.FC<Props> = ({ }) => {", "\treturn (", "\t);", "};\n", "export default ${TM_FILENAME_BASE/^(.)(.+?)(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?(-(.)(.+?))?\\..+/${1:/upcase}$2${4:/upcase}$5${7:/upcase}$8${10:/upcase}$11${13:/upcase}$14${16:/upcase}$17/g};\n"],
+    "description": "A new React functional component without props"
+  },
+  "Styled component": {
+    "prefix": ["sc", "styled-component"],
+    "body": ["const $1 = styled($2)({", "\t$0", "});\n"]
+  }
+}

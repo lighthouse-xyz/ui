@@ -1,0 +1,53 @@
+# Compiled output
+/dist
+/build
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+/cypress/videos
+/cypress/screenshots
+
+# Local secrets
+.env.local
+.env.dev.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/*
+.idea/*
+.run/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Cypress outputs
+/cypress/screenshots/
+/cypress/videos/
+
+# Files from the private repo
+app.dev.yaml
+app.prod.yaml
+cypress.config.ts
+/.github
+.gcloudignore

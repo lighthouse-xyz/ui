@@ -1,0 +1,113 @@
+{
+  "chapter": {
+    "ethDenver": {
+      "paraph1": "As your plane begins its downwind descent into Denver, you ponder the grayscale sunset from your window seat. It's been a week since the Earth's prismatic spectrum scattered into a million shades of gray. A tragedy, to be sure, but you also admire its underlying beauty. Maybe, without colors, people might grow less focused on each other's differences? There's some good in that, you muse silently as the sunset dims.",
+      "paraph2": "But this is no time for idle thoughts. You're here on an undercover mission, posing as a 2017 ETHDenver attendee, to uncover the truth behind...The Dimmening.",
+      "paraph3": "The leading theory? The decentralized rendering system in charge of displaying Earth's colors is under Sybil attack. Renowned cryptographic experts cite overwhelming evidence that an unidentified malicious actor executed a distributed denial of service attack on our planet's operating system. The origin? North American Aerospace Defense Command (NORAD) located ninety miles south in Colorado Springs.",
+      "paraph4": "The widespread belief across the country is that when the airport was first built, aliens — in league with nefarious conspiracy groups — built a backdoor to the underground chambers beneath the airport. Now, experts believe those aliens used this backdoor to access the tunnels leading to NORAD and take down the planet's foremost air defense system in preparation for an invasion by their species, for whom color is toxic.",
+      "paraph5": "Coming from the metaverse where you have interacted with hundreds of species from nearby galaxies and star systems, you question the apocalyptic nature of this theory. Aliens and humans have long been friends in the metaverse. What's more is that something just doesn't add up: some of the artwork at the airport mysteriously retained its full spectrum while the rest of the world lost its colors.",
+      "paraph6": "There is more nuance to this story than meets the eye, and you must uncover the truth.",
+      "title": "The Dimmening"
+    },
+    "goToChapter": "Go to\n(Chapter<sup>{{no}}</sup>)",
+    "label": "Chapter<sup>{{no}}</sup>",
+    "nftNyc": {
+      "paraph1": "You finally made it. After a year of intense travel, life-changing encounters, breathtaking explorations, devastating depeggings, and unexpected insolvencies, you reached the Garden of Consent, home to what is known as the only cross-universe bridge between Earth and the vast realms of the open metaverse.",
+      "paraph2": "Thanks to your intrepid detective work, the bridge’s location in Ethereum Valley is now widely known, but crossing it is reserved for a select few. Equipped with the correct soulbound tokens and verifiable credentials as a reward for solving The Dimmening at ETHDenver, you happen to be one of the few. But as always, things are more complicated than they seem.",
+      "paraph3": "Once you reach the bridge, you discover that it is under construction. On-site workers inform you that the bridge is migrating from a Proof of Work to a Proof of Stake consensus mechanism to address the scalability issues and accessibility concerns of the current system — which is why so few have been able to cross the bridge in the first place. This work should have been completed years ago, but the engineers at the Garden of Consent have reached an impasse.",
+      "paraph4": "Akin to changing a plane’s engine mid-flight, the transition to Proof of Stake is not only complex, but perilous as well. To finalize the transition, the Garden’s developers need a hash hidden in the most remote corners of the metaverse. This is a mandatory piece of the migration to ensure backward compatibility that will correctly tie to the future timeline to the past.",
+      "paraph5": "The issue? Once you cross the bridge into the metaverse, the only way to walk back is with that hash. Not finding it means staying stuck in the digital world forever. Who would be crazy enough to do that?",
+      "title": "The Point of No Return"
+    },
+    "nftParis": {
+      "paraph1": "You put on the helmet you'd been building and switched it on. At first, everything was blank, and then you found yourself standing in the middle of Paris on a cobblestone street pulsating with the energy of the French Renaissance. It was 1717, just 80 years (or 4.2 million blocks) after Descartes released his Discourse On the Method white paper to the Cryptography Mailing List. Your plan was to hang out in this space-time, make some new friends, and gain a deeper understanding of this fascinating period in France's history.",
+      "paraph2": "That was a month ago, and today, on a rainy Sunday morning, you are seated at your usual table in a literary salon in downtown Paris, taking notes on the white paper, journaling, and daydreaming about censorship-resistant cryptographic systems — as you often do.",
+      "paraph3": "The sound of your name unexpectedly pierces your reverie and calls you to attention. It's your old friend from meatspace. She's been borrowing the helmet you built and teleporting to all sorts of periods in Earth's timeline, exploring the vast expanse of possibilities available to kids everywhere and everywhen.",
+      "paraph4": "\"Aku!\" she screams as she approaches. You haven't seen her in a while — nor have you ever seen her this excited. \"I knew it! The portal exists! It's not just a legend,\" she exclaims breathlessly as she begins recounting her story.",
+      "paraph5": "During a leisurely afternoon spent farming and harvesting in the beautiful lands of Ethereum Valley in 2888, her mind wandered to the white paper. Then, she had a stroke of genius: could the white paper hold the key to the metaverse?",
+      "paraph6": "You see, until now, the helmet had been the only way to travel between the two realms. But legend had it that a portal exists that could democratize metaverse access for all — no special headgear required! Could the white paper hold a clue?",
+      "paraph7": "She dropped the vegetables, pulled up the white paper in her helmet screen, and there it was: hidden in its pages was a clue to what could be the first step in locating that mythical gateway bridging the metaverse and the physical world.",
+      "paraph8": "She has no concrete plan, no direction, and not even the vaguest idea what to do next. But in her excitement, it dawns on you that finding this bridge is a mission you must undertake together. No more sitting around in stylish cafés navel gazing about a better future. After all, who comes to 17th-century Paris and resists the call to an epic adventure for the benefit of humanity?",
+      "title": "The Age of Enlightnement"
+    },
+    "subtitle": "Daydreaming"
+  },
+  "cta": {
+    "check": "Check",
+    "connectWallet": "Connect wallet",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "submit": "Submit"
+  },
+  "detailsFaq": {
+    "label": "Details and FAQs",
+    "question1": {
+      "answer": "This metaverse scavenger hunt is open to everyone, regardless of whether they are attending the conference.",
+      "question": "Is this metaverse scavenger hunt open to everyone or just conference attendees?"
+    },
+    "question2": {
+      "answer": "Participants will receive an email every morning of the conference with the quest of the day. They must complete the quest and submit it on respective chapters' pages (ex: NFT Paris, ETH Denver, etc).",
+      "question": "How does the scavenger hunt work?"
+    },
+    "question3": {
+      "answer": "Yes, there will be giveaways drawn among quest participants. The more quests completed successfully, the higher your chances of earning a prize.",
+      "question": "Will there be any giveaways for quest participants?"
+    },
+    "question4": {
+      "answer": "Yes, there is a Telegram channel available to address any questions throughout the scavenger hunt. Participants can join the channel <Link>[here]</Link> and ask any questions they may have.",
+      "question": "Is there a channel available to address questions about the scavenger hunt?"
+    }
+  },
+  "error": {
+    "generic": "Sorry, something went wrong. Please give it a moment and try again.",
+    "invalidEmail": "Invalid email.",
+    "required": "This field is required!",
+    "wrongAnswer": "Oops, try again!"
+  },
+  "howDoesItWork": {
+    "completeHunts": {
+      "description": "and win prizes!",
+      "label": "Complete the scavenger hunts"
+    },
+    "label": "How does it work?",
+    "signIn": {
+      "description": "to submit your answers to the clues shared in the emails!",
+      "label": "Sign in"
+    },
+    "signUp": {
+      "description": "and receive daily quests via email every morning during the conferences!",
+      "label": "Sign up for scavenger hunts",
+      "signUpToNewsletter": "Sign up to Lighthouse newsletter"
+    }
+  },
+  "intro": {
+    "paraph1": "A young boy, curious about the world of technology but unsure of his place in it, finds an extraordinary helmet that transports him to the metaverse. There, he meets Aku, a respected leader of the digital realms. Aku helps the boy navigate the metaverse and realize that his dreams open up limitless possibilities.",
+    "paraph2": "Together, the boy and Aku build a new helmet that allows Aku to visit the physical world. Once on Earth, Aku is fascinated by Earth’s cultures, innovations, and the experiences he encounters. He uses his intrepid detective skills and technical expertise to solve challenging missions while inspiring children around the world.",
+    "paraph3": "So far, Aku has travelled from <LinkNftParis>NFT Paris to the Age of Enlightenment</LinkNftParis> to read Descartes’ writings and locate a mythical gateway bridging the metaverse and the physical world, and visited the <LinkEthDenver>first ETH Denver conference in 2017</LinkEthDenver> to solve The Dimmening, an event in which Earth lost its colors.",
+    "paraph4": "In his latest mission, Aku goes to <LinkNftNyc>NFT.NYC</LinkNftNyc> to find a hidden hash that will allow engineers to complete construction of a bridge that connects Earth to the metaverse.",
+    "title": "(Once upon a time)"
+  },
+  "landing": {
+    "subtitle": "Present",
+    "title": "Daydream"
+  },
+  "questForm": {
+    "answer": "Answer",
+    "day": "Day {{day}}",
+    "question": "Question {{no}}",
+    "title": "Scavenger Hunt Answers"
+  },
+  "selectAdventure": "Select your scavenger hunt",
+  "success": {
+    "signUp": {
+      "subtitle": "Stay on the lookout for an email when the scavenger hunt starts!",
+      "title": "You've successfully signed up to Daydream alongside Aku!"
+    }
+  },
+  "warning": {
+    "huntsNotStarted": "The scavenger hunt has not started yet",
+    "mustSignIn": "You must sign in to participate in the scavenger hunt",
+    "mustSignUp": "Make sure you’ve signed up to receive the clues",
+    "questExpired": "This quest is expired"
+  }
+}

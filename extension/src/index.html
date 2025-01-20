@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <script type="module">
+        import { Buffer } from "buffer";
+        import process from "process";
+        window.Buffer = Buffer;
+        window.process = process;
+    </script>
+    <meta charset="UTF-8" />
+    <title>Popup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app-container"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+
+</html>

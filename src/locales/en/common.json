@@ -1,0 +1,939 @@
+{
+  "account": {
+    "data": "Data",
+    "delete": "Delete my account",
+    "emailSection": {
+      "title": "Email"
+    },
+    "extensionSection": {
+      "description": "Download the Lighthouse browser extension so your friends can find you as you explore the metaverse!",
+      "title": "Browser extension"
+    },
+    "label": "Account",
+    "permanentlyDelete": {
+      "explanation": "If you delete your account, all of your contacts, browsing history and gate details will be erased. You will be able to create a new account in the future if you wish, but this data will not be recovered.",
+      "label": "Permanently delete account?"
+    },
+    "walletSection": {
+      "description": "Connect a wallet to import assets into your gate and add a sign-in method. Max: 1.",
+      "title": "Wallet"
+    }
+  },
+  "app": {
+    "externalPages": {
+      "about": "About",
+      "browserExtension": "Browser extension",
+      "jobs": "Jobs",
+      "privacy": "Privacy",
+      "ressources": "Ressources",
+      "starmap": "<del>Road</del>Starmap",
+      "support": "Support & Feedback",
+      "terms": "Terms"
+    },
+    "getChromeExtension": "Get Chrome extension",
+    "header": "Find <italic>friends,</italic> <italic>travel,</italic> and <italic>socialize</italic> in the spatial web.",
+    "launchApp": "Launch app",
+    "notMobileFriendly": {
+      "paraph1": "Sadness! Lighthouse doesn't shine on <italic>mobile devices...</italic>just yet.\nBut soon! Soon!",
+      "paraph2": "Meantime, come visit us on your <italic>desktop</italic> to start exploring all your metaverse dreams.✨"
+    },
+    "startExploringWorlds": "Start exploring worlds",
+    "subtitle": "Lighthouse is the world's leading open metaverse navigation engine."
+  },
+  "appearance": {
+    "darkMode": "Dark",
+    "label": "Appearance",
+    "lightMode": "Light",
+    "system": "System"
+  },
+  "assets": {
+    "label": "Assets",
+    "pageTitle": "Assets of the metaverse",
+    "yourAssets": "Your assets"
+  },
+  "browserExtension": {
+    "banner": {
+      "title": "Share your location with your friends using the Lighthouse Chrome extension!"
+    },
+    "label": "Browser extension",
+    "newAlert": {
+      "subtitle": "Download the Lighthouse extension to share your LIVE location so your friends can teleport directly to you!",
+      "title": "Important"
+    }
+  },
+  "collections": {
+    "label": "Collections"
+  },
+  "cookies": {
+    "cookiesAndYou": "Cookies and you",
+    "explanation": "Our website uses functional and first-party analytics cookies <strong>only</strong>. Analytics cookies help us improve our website by collecting and reporting information on how you use it. Learn more <Link>here</Link>. Hit the slider to disable them.",
+    "gotIt": "🍪 Got it",
+    "optOut": "I want to opt-out"
+  },
+  "cta": {
+    "add": "Add",
+    "addEmail": "Add email",
+    "apply": "Apply",
+    "back": "Back",
+    "cancel": "Cancel",
+    "claim": "Claim",
+    "claimAvatar": "Claim avatar",
+    "clearAll": "Clear all",
+    "clearStatus": "Clear status",
+    "confirmReport": "Confirm report",
+    "connectWallet": "Connect wallet",
+    "copy": "Copy",
+    "copyLink": "Copy link",
+    "copyShareableUrl": "Copy live location link",
+    "createWallet": "Create wallet",
+    "delete": "Delete",
+    "deleteNotification": "Delete notification",
+    "edit": "Edit",
+    "filters": "Filters",
+    "follow": "Follow",
+    "follow_follower": "Follow back",
+    "follow_following": "Following",
+    "follow_friend": "Friends",
+    "follow_none": "Follow",
+    "goBackHome": "Go back home",
+    "gotIt": "Got it",
+    "join": "Join",
+    "joinOurWaitlist": "Join our waitlist",
+    "jump": "Jump",
+    "jumpIn": "Jump in",
+    "jumpNow": "Jump now",
+    "learnMore": "Learn more",
+    "markRead": "Mark as read",
+    "markUnread": "Mark as unread",
+    "next": "Next",
+    "openApp": "Open app",
+    "openChromeStore": "Coming soon",
+    "openLighthouse": "Open Lighthouse.world",
+    "read": {
+      "dataManagement": "Read about data management",
+      "more": "Read more",
+      "privacyPolicy": "Read about our privacy policy"
+    },
+    "receive": "Receive",
+    "refreshPage": "Refresh page",
+    "report": "Report",
+    "reset": "Reset",
+    "save": "Save",
+    "select": "Select",
+    "selectNft": "Select NFT",
+    "share": "Share",
+    "signIn": "Sign in",
+    "signInToFollow": "Sign in to follow",
+    "signOut": "Sign out",
+    "switchDesktopVersion": "Switch to desktop version",
+    "switchVrVersion": "Switch to VR version",
+    "unlink": "Unlink",
+    "upload": "Upload",
+    "viewAll": "View all",
+    "viewTheirGate": "View their gate"
+  },
+  "entity": {
+    "addedBy": "Added by",
+    "viewOwnerGate": "View owner's gate"
+  },
+  "enum": {
+    "createdBy": {
+      "following": "People I follow",
+      "friend": "Friends"
+    },
+    "eventCategory": {
+      "artExhibition": "Art & Culture Exhibition",
+      "brandLaunch": "Brand / Launch",
+      "competition": "Competition",
+      "conference": "Conference",
+      "fundraising": "Fundraising",
+      "giveaway": "Giveaway",
+      "hangout": "Hangout",
+      "livePerformance": "Live Performances",
+      "music": "Music",
+      "mvfw": "MVFW",
+      "networking": "Networking",
+      "party": "Party",
+      "playToEarn": "Play to Earn ",
+      "socialActivity": "Social Activities",
+      "sport": "Sports",
+      "talkPresentation": "Talks & Presentation",
+      "workshopLecture": "Workshop / Lecture"
+    },
+    "filterCategory": {
+      "createdBy": "Created by",
+      "eventSortBy": "Sort",
+      "peopleSortBy": "Sort",
+      "placeSortBy": "Sort",
+      "type": "Type",
+      "userCategory": "Category",
+      "when": "When",
+      "world": "World"
+    },
+    "jumpNowLocation": {
+      "anywhere": "Anywhere",
+      "featuredSpots": "Lighthouse featured spot",
+      "friends": "Where my friends are"
+    },
+    "placeCategory": {
+      "art": "Art",
+      "education": "Education",
+      "gaming": "Gaming",
+      "mvfw": "MVFW",
+      "services": "Services",
+      "shopping": "Shopping",
+      "social": "Social",
+      "work": "Work"
+    },
+    "sort": {
+      "createdAt": "Recently Added",
+      "mostPopular": "Recommended",
+      "nameAsc": "Name",
+      "nameDesc": "Name",
+      "nextStartAtAsc": "Upcoming",
+      "priceAsc": "Price",
+      "priceDesc": "Price"
+    },
+    "type": {
+      "estate": "Estate",
+      "event": "Event",
+      "member": "User",
+      "parcel": "Parcel"
+    },
+    "userCategory": {
+      "brand": "Brand",
+      "creator": "Creator",
+      "explorer": "Explorer",
+      "lightkeeper": "Lightkeeper"
+    },
+    "when": {
+      "live": "Live",
+      "past": "Past",
+      "scheduled": "Scheduled"
+    },
+    "world": {
+      "arium": "Arium",
+      "artifexUnreal": "Artifex Unreal",
+      "astra": "Astra",
+      "createra": "Createra",
+      "decentraland": "Decentraland",
+      "ethereal": "Ethereal",
+      "hiberWorld": "HiberWorld",
+      "hyperfy": "Hyperfy",
+      "janusXr": "JanusXR",
+      "lvcidia": "Lvcidia",
+      "mona": "Mona",
+      "mozillaHubs": "Mozilla Hubs",
+      "muse": "Muse",
+      "onCyber": "oncyber",
+      "portals": "Portals",
+      "protoworld": "Protoworld",
+      "rareRooms": "RareRooms",
+      "ronday": "Ronday",
+      "rove": "Rove",
+      "simulacra": "Simulacra",
+      "somniumSpace": "Somnium Space",
+      "sougen": "Sougen",
+      "soutsideCity": "Southside City",
+      "spatial": "Spatial",
+      "substrata": "Substrata",
+      "swivelMeta": "SwivelMeta",
+      "theNemesis": "The Nemesis",
+      "theSandbox": "The Sandbox",
+      "tz1and": "Tz1and",
+      "vesta": "Vesta",
+      "viverse": "Viverse",
+      "voxels": "Voxels",
+      "vrChat": "VRChat",
+      "w3rlds": "W3rlds",
+      "webaverse": "Webaverse"
+    }
+  },
+  "error": {
+    "404": {
+      "subtitle": "Working on it! In the meantime, let's...",
+      "title": "Sorry, we haven't lit this end of the metaverse yet."
+    },
+    "500": {
+      "subtitle": "We're working on it and expect to be up and running shortly.",
+      "title": "Uh oh! It seems like our lights went out."
+    },
+    "createEvent": "So sorry, we couldn't create your event. Please give it a moment and try again.",
+    "createPlace": "So sorry, we couldn't create your place. Please give it a moment and try again.",
+    "delete": "So sorry, we couldn't delete your {{type}}. Please give it a moment and try again.",
+    "deleteAccount": "So sorry, the request failed for some reason. Please give it a moment and try again!",
+    "deleteEvent": "So sorry, we couldn't delete your event. Please give it a moment and try again.",
+    "deleteImage": "So sorry, we couldn't delete your image. Please give it a moment and try again.",
+    "deletePlace": "So sorry, we couldn't delete your place. Please give it a moment and try again.",
+    "fetchingConnections": "None found. Luckily, this is an error so try refreshing!",
+    "fetchNfts": "Sorry, we couldn't load your NFTs. Please give it a moment and try again.",
+    "forbidden": "Unfortunately, it seems you don't have the credentials to access this page.",
+    "generic": "Sorry, something went wrong. Please give it a moment and try again.",
+    "handleAlreadyTaken": "Handle taken. Please try another.",
+    "interested": "Sorry, something went wrong. Please give it a moment and try again.",
+    "invalidEndDate": "The end date must be later than the start date.",
+    "invalidFormat": "Invalid format.",
+    "invalidHandle": "The handle must be alphanumeric.",
+    "invalidPlaceUrl": "The url must point to a supported world.",
+    "jump": "Sorry, we couldn't beam you in. Please give it a moment and try again.",
+    "loadResults": "Sorry, we couldn't load results. Please give it a moment and try again.",
+    "loadSuggestions": "Sorry, we couldn't load suggestions",
+    "lostInTheMetaverse": {
+      "anonSubtitle": "Are you sure you're trying to join the right user? Check your link and try again!",
+      "anonTitle": "Uh-oh, looks like that path disappeared.",
+      "subtitle": "Follow their Lighthouse account to find out when they start their next adventure!",
+      "title": "{{displayName}} stopped sharing their location"
+    },
+    "maintenance": {
+      "subtitle": "Don't squint too hard. Instead, give us a few minutes as we expect to be up and running shortly.",
+      "title": "Ahem, you've caught us in a bad time."
+    },
+    "marketplace": "Sorry, we can't find this item right now. Please give it a moment and try again.",
+    "noNft": "We couldn't find the right NFT in your wallet. You can try again with another or join our waitlist!",
+    "noWalletSubtitle": "You must add a wallet to use this feature",
+    "noWalletSubtitle_event": "You must add a wallet to your account to create an event",
+    "noWalletSubtitle_nft": "You must add a wallet to your account to use NFTs",
+    "noWalletSubtitle_place": "You must add a wallet to your account to add a place",
+    "noWalletTitle": "Wallet required",
+    "required": "This field is required",
+    "selectNft": "Our apologies, either the file type of the NFT is unsupported or cropping isn't supported for the particular file type. Please try again without cropping and if it still fails, try another NFT.",
+    "signInForbidden": "It seems like something went wrong. Please contact our support team!",
+    "unauthorized": "You need to sign in to access this page.",
+    "updateEvent": "So sorry, we couldn't update your event. Please give it a moment and try again.",
+    "updatePlace": "So sorry, we couldn't update your place. Please give it a moment and try again.",
+    "updateProfile": "So sorry, we couldn't update your gate. Please give it a moment and try again.",
+    "updateProfileLater": "Sorry, something went wrong. But don't worry, you can still edit this later!",
+    "upload": "Sorry, we couldn't upload your image. Please give it a moment and try again.",
+    "uploadImageAcceptType": "Sorry, the only file formats supported are PNG and JPG.",
+    "uploadImageMaxFileSize": "Sorry, try adding a file that's 2MB or smaller.",
+    "uploadNsfw": "Sorry, we couldn't upload your image. Potential NSFW content was detected."
+  },
+  "events": {
+    "attending": "attending",
+    "create": "Create event",
+    "edit": "Edit events",
+    "fromYourFavoriteCreators": "New events from your favorite creators",
+    "label": "Events",
+    "mostPopularEvents": "Most popular events",
+    "mostPopularLiveEvents": "Most popular live events",
+    "mostPopularUpcomingEvents": "Most popular upcoming events",
+    "permanentlyDelete": "Permanently delete this event?",
+    "trendingEvents": "Recommended events",
+    "type": {
+      "live": "Live",
+      "past": "Past events",
+      "pastSingular": "Past event",
+      "scheduled": "Scheduled events"
+    },
+    "viewEvent": "View event",
+    "yourEvents": {
+      "label": "Your events",
+      "pageDescription": "Below are all the events tied to your wallet address if you've connected one, as well as the events you've added natively from Lighthouse.",
+      "yourLiveEvents": "Your live events"
+    }
+  },
+  "form": {
+    "buttons": {
+      "delete": {
+        "buttonLabel": "Delete {{type}}",
+        "confirmationHeading": "Are you sure?",
+        "confirmationSubheading": "This action is permanent.",
+        "confirmButtonLabel": "Yes, I'm sure",
+        "success": "{{type}} deleted successfully."
+      }
+    },
+    "helper": {
+      "banner": "Upload a picture or show off one of your NFTs. It's recommended to use a PNG or JPG picture of 2MB or less with a {{bannerRatio}} to get the best results.",
+      "characterCount": "{{count}}/{{total}} characters",
+      "experienceCategories": "Pick the category tags that best define your experience.\n<highlight>Pick a minimum of 1 tag.</highlight>",
+      "experienceTags": "Add additional tags that best describe your experience. This will help tailor our recommendations. Pick a maximum of {{maxTags}} tags. 20 characters max per tag.\n<strong>Press Enter to submit.</strong>",
+      "handle": "You can create a unique handle which will also reflect in your gate's URL. You can change it at any time.",
+      "profileCategory": "Pick the category tag that best defines you.",
+      "profileTags": "Add the tags that best describe yourself or your brand. This will help give your gate visibility. Pick a maximum of {{maxTags}} tags. 20 characters max per tag. <strong>Press Enter to submit.</strong>",
+      "square": "Upload a picture or show off one of your NFTs. It's recommended to use a PNG or JPG picture of 2MB or less.",
+      "username": "Your display name is how other users can identify you."
+    },
+    "label": {
+      "aboutYou": "About you",
+      "avatar": "Avatar",
+      "banner": "Banner",
+      "clearAfter": "Clear after",
+      "customStatus": "I'm feeling...",
+      "endDate": "End date",
+      "handle": "Handle",
+      "image": "Image",
+      "links": "Links",
+      "startDate": "Start date",
+      "tags": "Tags",
+      "username": "Display name",
+      "what": "What",
+      "when": "When",
+      "where": "Where"
+    },
+    "labelInfo": {
+      "supportedWorlds": "Supported worlds?"
+    },
+    "placeholder": {
+      "description": "Description",
+      "eventName": "Event name",
+      "handle": "e.g. Explorer",
+      "noPlaceTiedToWallet": "You don't own any places, start typing to search",
+      "place": "Place",
+      "placeName": "Place name",
+      "placeUrl": "Place URL",
+      "reportDescription": "This should be reported because...",
+      "search": "Search events, places, people...",
+      "tags": "Add a tag..."
+    },
+    "title": {
+      "createEvent": "Create an event",
+      "createPlace": "Create a place",
+      "crop": "Crop",
+      "customStatus": "Custom status",
+      "editEvent": "Edit your event",
+      "editPlace": "Edit your place",
+      "editProfile": "Edit your gate",
+      "report": "Report",
+      "selectNft": "Select NFT"
+    }
+  },
+  "godMode": {
+    "adminInfo": {
+      "heading": "Your info",
+      "token": "Token",
+      "userId": "User ID"
+    },
+    "alert": {
+      "aboutToEnter": "You are about to enter god mode",
+      "currentlyIn": "You are currently in god mode",
+      "warning": "Every change made will directly affect users' experience. Be prudent and godspeed!"
+    },
+    "backToGodMode": "Back to god mode page",
+    "common": {
+      "duplicateError": "Can't add same entity twice.",
+      "inputPlaceholder": "Enter lhid",
+      "inputPlaceholder_withHandle": "Enter lhid or handle",
+      "invalidInput": "Invalid input",
+      "noMatchingEntity": "No matching entity found"
+    },
+    "create": {
+      "addGate": "Add gate",
+      "addPlace": "Add place",
+      "createEvent": "Create event",
+      "heading": "Create",
+      "success": "Gate created successfully"
+    },
+    "edit": {
+      "editGate": "Edit gate",
+      "heading": "Edit",
+      "inputPlaceholder": "Search lhid or handle",
+      "retrieve": "Retrieve"
+    },
+    "featured": {
+      "edit": "Edit featured {{type}}",
+      "fetchError": "Error loading featured {{type}}. Try again in a few minutes and report it to the dev team if the problem persists.",
+      "heading": "Featured",
+      "headingWithType": "Featured {{type}}",
+      "subheading": "Must be exactly 3.",
+      "success": "Successfully updated featured {{type}}!"
+    },
+    "form": {
+      "featuredMedia": "Featured media",
+      "heading": "Admin-only fields",
+      "invalidWalletAddress": "Invalid wallet address.",
+      "marketplace": "Marketplace url",
+      "ownerUser": "Owner's lhid",
+      "walletAddress": "Wallet address",
+      "walletAddressAlreadyExists": "Wallet address already exists."
+    },
+    "label": "God mode",
+    "redirected": "You must be an admin to access this page.",
+    "trending": {
+      "edit": "Edit trending {{type}}",
+      "fetchError": "Error loading trending {{type}}. Try again in a few minutes and report it to the dev team if the problem persists.",
+      "heading": "Trending",
+      "headingWithType": "Trending {{type}}",
+      "success": "Successfully updated trending {{type}}!"
+    },
+    "visualizeLightkeeperStats": {
+      "heading": "Visualize lightkeeper dashboard",
+      "inputPlaceholder": "Search lightkeeper lhid or handle",
+      "notLightkeeper": "The user is not a lightkeeper",
+      "visualize": "Visualize"
+    }
+  },
+  "handle": {
+    "claim": {
+      "label": "Claim your handle",
+      "lock": "And lock it in for all eternity, before someone else does.",
+      "pick": "Pick your handle"
+    },
+    "signIn": "Please sign in to link your chosen handle to an account",
+    "successfullyClaimed": {
+      "explanation": "You can now tailor the contents of your profile (“gate”) to your liking and showcase your own creations and favorite metaverse experiences.",
+      "subtitle": "You now have a very unique handle ✨",
+      "title": "Lucky you!"
+    }
+  },
+  "home": {
+    "featured": "Featured",
+    "label": "Home",
+    "overview": "Overview",
+    "pageTitle_/events": "Find <highlight>events</highlight> that suit your style",
+    "pageTitle_/home": "Welcome to the <highlight>open metaverse</highlight> navigation engine",
+    "pageTitle_/people": "Find like-minded <highlight>creators</highlight> and <highlight>explorers</highlight>",
+    "pageTitle_/places": "Explore immersive <highlight>places</highlight>"
+  },
+  "interested": {
+    "label": "Interested",
+    "pageTitle": "Events you're interested in"
+  },
+  "inviteFriend": {
+    "dialog": {
+      "subtitle": "Because the world is better with your friends in it! 🙂",
+      "title": "Invite friends to explore together"
+    },
+    "gatherYourPeople": "Gather your people"
+  },
+  "jumpHistory": {
+    "label": "Jump history",
+    "pageTitle": "Your jump history"
+  },
+  "lightkeeperStats": {
+    "column": {
+      "daysLeft": {
+        "label": "Days left",
+        "tooltip": "Every user has 30 days to complete their tasks"
+      },
+      "earned": "Earned",
+      "points": "Points",
+      "progress": "Progress",
+      "rank": "Rank",
+      "user": "User"
+    },
+    "daysUntilNextCycle_one": "{{count}} day until next cycle",
+    "daysUntilNextCycle_other": "{{count}} days until next cycle",
+    "howDoesItWork": {
+      "actionsRewarded": {
+        "cameBack": "User came back on 2 different days",
+        "extensionDownloaded": "Extension downloaded",
+        "followed": "User followed 3 accounts",
+        "jumped": "User jumped to someone else’s location (via the side panel) twice",
+        "profileCreated": "Gate created",
+        "profilePersonalized": "Gate personalized (picture, socials linked, pinned experiences)"
+      },
+      "getRewarded": {
+        "description": "Collect points and get paid every month based on the amount of people referred!",
+        "label": "Get rewarded"
+      },
+      "label": "How does it work?",
+      "onboard": {
+        "description": "Encourage them to complete key actions in the app",
+        "label": "Onboard"
+      },
+      "reward": {
+        "money": "<bold>$0.50 / Point</bold> for the first 50 users per month\n<bold>$1.00 / Point</bold> for every user beyond the 50th during the same month",
+        "points_one": "{{count}} point",
+        "points_other": "{{count}} points"
+      },
+      "sendInvitations": {
+        "description": "Send your referral link to friends and tell them to join the fun!",
+        "label": "Send invitations"
+      },
+      "shareYourReferralLink": {
+        "description": "You can share your referral link by copying and sending it or sharing it on your social media",
+        "label": "Share your referral link"
+      }
+    },
+    "howYoureDoing": {
+      "allTime": "All time",
+      "error": {
+        "cta": "Refresh",
+        "subtitle": "It seems there was an error when loading your data. Please try refreshing.",
+        "title": "Our apologies"
+      },
+      "label": "How you’re doing so far",
+      "totalEarned": "Total Earned",
+      "usersReferred": "Users Referred",
+      "yourPoints": "Your points"
+    },
+    "label": "Lightkeeper dashboard",
+    "leaderboard": {
+      "label": "Leaderboard",
+      "noData": "No recorded activity",
+      "top": "Top {{count}}",
+      "viewLeaderboard": "View leaderboard"
+    },
+    "referrals": {
+      "alert50referrals": "Reach 50 referrals and double your rewards!",
+      "doubledRewards": "Double rewards!",
+      "label": "Your referrals",
+      "nbReferrals_one": "{{count}} referral",
+      "nbReferrals_other": "{{count}} referrals",
+      "noReferrals": {
+        "subtitle": "Your adventure is just beginning!\nGood luck!",
+        "title": "You haven’t referred anyone yet"
+      },
+      "steps": {
+        "step1": {
+          "key": "profile",
+          "label": "Gate created"
+        },
+        "step2": {
+          "key": "personalizedGate",
+          "label": "Gate personalized (picture, socials linked, pinned experiences)"
+        },
+        "step3": {
+          "key": "extensionLogin",
+          "label": "Extension downloaded"
+        },
+        "step4": {
+          "key": "cameBack",
+          "label": "User came back on 2 different days"
+        },
+        "step5": {
+          "key": "followedOtherUsers",
+          "label": "User followed 3 accounts"
+        },
+        "step6": {
+          "key": "jumpedToOtherUsers",
+          "label": "User jumped to someone else’s location on 2 different sessions"
+        }
+      }
+    }
+  },
+  "likes": {
+    "label": "Likes",
+    "pageTitle": "Your likes"
+  },
+  "metadata": {
+    "aku": {
+      "chapterTitle": "{{chapter}} | Lighthouse.world x Aku.world",
+      "description": "A young boy, curious about the world of technology but unsure of his place in it, finds an extraordinary helmet that transports him to the metaverse.",
+      "title": "Lighthouse.world x Aku.world"
+    },
+    "entity": {
+      "description": "Open metaverse destination",
+      "title": "{{name}} | Lighthouse.world "
+    },
+    "main": {
+      "description": "Discover places, friends, experiences and events across the spatial web",
+      "pageTitle": "{{page}} | Lighthouse.world",
+      "title": "Lighthouse.world | The open metaverse navigation engine"
+    },
+    "user": {
+      "description": "Come join me in exploring the open metaverse!",
+      "title": "{{username}} | Lighthouse.world"
+    }
+  },
+  "noResults": {
+    "eventsTab": {
+      "subtitle": "You can start creating events right away",
+      "title": {
+        "currentUser": "Have you created an event?",
+        "otherUser": "No events"
+      }
+    },
+    "generic": {
+      "subtitle": "Enjoy this fungible illustration instead! Or you can try looking for something else",
+      "title": "No results found"
+    },
+    "interested": {
+      "subtitle": "Go express your interest in some future events",
+      "title": "You haven't marked any events you're interested in yet"
+    },
+    "jumpHistory": {
+      "subtitle": "Go out there and start exploring the open metaverse",
+      "title": "You haven't jumped into any destinations yet"
+    },
+    "likes": {
+      "subtitle": "Go out there and jump into a destination you'll enjoy enough to put here",
+      "title": "You haven't liked anything yet"
+    },
+    "nfts": {
+      "subtitle": "There are currently no NFTs in your wallet",
+      "title": "No NFTs found"
+    },
+    "pins": {
+      "subtitle": "Start pinning your favorite findings you want to draw attention to!",
+      "title": "No pins"
+    },
+    "placesTab": {
+      "subtitle": "You can add it to your gate right away",
+      "title": {
+        "currentUser": "Have you created a place?",
+        "otherUser": "No places"
+      }
+    },
+    "yourEvents": {
+      "title": "No events"
+    },
+    "yourPlaces": {
+      "title": "No places"
+    }
+  },
+  "notifications": {
+    "items": {
+      "create_Estate": "has added a new place",
+      "create_Event": "has created a new event",
+      "create_Parcel": "has added a new place",
+      "deleted_Estate": "[deleted place]",
+      "deleted_Event": "[deleted event]",
+      "deleted_Parcel": "[deleted place]",
+      "deleted_Profile": "[deleted user]",
+      "followedYou": "followed you",
+      "goLive": "An event you're interested in has gone live",
+      "interestedInEvent": "is interested in an event",
+      "interestedInYourEvent": "is interested in your event"
+    },
+    "label": "Notifications",
+    "markAllRead": "Mark all as read",
+    "pageTitle": "Notifications",
+    "settings": {
+      "activity_eventGoLive": {
+        "content": "Notify me when an event I'm interested in goes live",
+        "label": "Events gone live"
+      },
+      "activity_follow": {
+        "content": "Notify me when someone follows me",
+        "label": "Follows"
+      },
+      "activity_followingActivity": {
+        "content": "Notify me when people I follow add new experiences",
+        "label": "New experiences"
+      },
+      "activity_friendActivity": {
+        "content": "Notify me about friend activity (e.g. interested)",
+        "label": "Friend activity"
+      },
+      "activity_ownedEntity": {
+        "content": "Notify me when people interact with my experiences",
+        "label": "Activity on your experiences"
+      },
+      "subtitle": "Manage your notifications"
+    }
+  },
+  "onboarding": {
+    "checklist": {
+      "progress": "{{value}}% complete - nice!",
+      "progress_completed": "100% complete!",
+      "step1": {
+        "label": "Be amazing and curious about the open metaverse"
+      },
+      "step2": {
+        "label": "Personalize your gate",
+        "tooltip": "\"Gate\" is what we call user profiles on Lighthouse! Add an avatar, a banner image, and a description!"
+      },
+      "step3": {
+        "label": "Find a fun experience and pin it to your gate"
+      },
+      "step4": {
+        "label": "Download the extension"
+      },
+      "title": "Complete the onboarding to unlock your custom avatar!",
+      "title_completed": "Well done explorer!"
+    },
+    "claimAvatars": {
+      "claimAsNft": "Claim your avatar as an NFT",
+      "claimAsNft_second": "Claim your second avatar as an NFT",
+      "download": "Download your avatar",
+      "download_second": "Download your second avatar",
+      "inviteFriendStep": "[Bonus] Invite a friend!",
+      "popper": {
+        "description": "You can retrieve your reward here!",
+        "title": "Your avatar"
+      },
+      "sendThemLink": "Just send them this link:",
+      "title": "🎉 Congrats!",
+      "unlockSecondAvatar": "Invite a friend to get them started on this new and exciting journey and unlock a second avatar!",
+      "yourAvatars": "Your avatars"
+    },
+    "claimInviteAvatar": {
+      "subtitle": "As promised, here’s your second avatar",
+      "title": "Thanks for helping grow our community 💜"
+    },
+    "editGate": {
+      "description": "Sign in and take a few seconds to tailor the contents of your profile (“gate”) to your liking and showcase your own creations and favorite metaverse experiences.",
+      "title": "Personalize your gate"
+    },
+    "extension": {
+      "description": "Download the Lighthouse browser extension to enable your friends to find you during your metaverse explorations. World hopping should be a multiplayer experience!",
+      "title": "The more, the merrier"
+    },
+    "follow": {
+      "description": "The metaverse shouldn't feel empty! Follow your friends and top creators to personalize your experience and seamlessly find your friends across worlds.",
+      "title": "Friends, Assemble!"
+    },
+    "jump": {
+      "description": "You are moments away from exploring the wonders of the spatial web created by a whole new breed of creators.",
+      "title": "Discover thousands of experiences"
+    },
+    "label": "Onboarding",
+    "welcome": {
+      "subtitle": "The open metaverse navigation engine",
+      "title": "Welcome to the\nLighthouse portal!"
+    }
+  },
+  "openInvites": {
+    "description": "These Explorers have chosen to share their locations with all Lighthouse users. Feel free to join them in their adventure!",
+    "label": "Open invites",
+    "label_one": "Open invite",
+    "label_other": "Open invites",
+    "noExplorersToJoin": "No explorers to join at the moment"
+  },
+  "people": {
+    "brands": "Brands",
+    "connections_one": "connection",
+    "connections_other": "connections",
+    "creators": "Creators",
+    "featuredCreators": "Featured creators",
+    "goToPeoplePage": "Go to People page",
+    "label": "People",
+    "pageTitle": "Discover creators and explorers",
+    "peopleYouMayLike": "People you may like"
+  },
+  "pins": {
+    "label": "Pins",
+    "tooltip": "Pin to my gate"
+  },
+  "places": {
+    "create": "Create places",
+    "edit": "Edit places",
+    "fromYourFavoriteCreators": "New places from your favorite creators",
+    "label": "Places",
+    "permanentlyDelete": "Permanently delete this place?",
+    "trendingPlaces": "Recommended places",
+    "viewPlace": "View place",
+    "visitors": "visitors",
+    "yourPlaces": {
+      "label": "Your places",
+      "pageDescription": "Below are all the places tied to your wallet address if you've connected one, as well as the places you've added natively from Lighthouse."
+    }
+  },
+  "profile": {
+    "backToProfile": "Back to your gate",
+    "editProfile": "Edit your gate",
+    "followers": {
+      "followingBackResult": "Following back will put them in your friends list",
+      "label": "Followers",
+      "label_one": "Follower",
+      "label_other": "Followers"
+    },
+    "following": {
+      "label": "Following",
+      "startFollowing": "Start following people right away"
+    },
+    "friends": {
+      "description": "Friends are people you follow that have followed you back",
+      "label": "Friends",
+      "label_one": "Friend",
+      "label_other": "Friends",
+      "unfollowingResult": "Unfollowing will put them in the followers list"
+    },
+    "in": "In",
+    "myProfile": "Your gate",
+    "viewProfile": "View gate",
+    "viewYourProfile": "View your gate"
+  },
+  "search": {
+    "searchResultsFor": "Search results for <query>{{query}}</query> {{nbResults}}"
+  },
+  "settings": {
+    "label": "Settings"
+  },
+  "signInOnboarding": {
+    "communityMembers": {
+      "subtitle": "They look forward to meeting you!",
+      "title": "Some community members for\nyou to follow to get the party started"
+    },
+    "downloadExtension": {
+      "description": "Enable your friends to find you during your metaverse exploration. World hopping should be a multiplayer experience!",
+      "subtitle": "The more, the merrier",
+      "title": "Download the Chrome extension"
+    },
+    "pickCategory": {
+      "title": "Which one describes you best?"
+    },
+    "pickHandle": {
+      "subtitle": "You can change it at any time.",
+      "title": "Pick your handle"
+    },
+    "welcome": {
+      "description": {
+        "paragraph1": "Let’s get you up and running to make the most out of the open metaverse so you can find friends, travel and socialize in the spatial web.",
+        "paragraph2": "By the end of the onboarding, you’ll unlock this snazzy limited edition avatar! <Link>Learn more</Link>"
+      },
+      "title": "Welcome to the Lighthouse portal!"
+    }
+  },
+  "status": {
+    "appearOffline": "Appear offline",
+    "appearOnline": "Appear online",
+    "custom": "Custom status...",
+    "label": "Status"
+  },
+  "success": {
+    "copiedShareableLinkToClipboard": "Live location link copied to clipboard!",
+    "copiedToClipboard": "Copied to clipboard!",
+    "copyEntityLink": "Share link copied to clipboard!",
+    "createEvent": "Congrats! You've created an event. Check it out!",
+    "createPlace": "Congrats! You've created a place. Check it out!",
+    "editEvent": "Congrats! Event updated successfully. Check it out!",
+    "editPlace": "Congrats! Place updated successfully. Check it out!",
+    "follow": "Success! Now let's check out your new connection's gate.",
+    "report": "Thanks! Your report was sent successfully!"
+  },
+  "time": {
+    "allDay": "all day",
+    "dontClear": "Don't clear",
+    "hour_one": "{{count}} hour",
+    "hour_other": "{{count}} hours",
+    "minute_one": "{{count}} minute",
+    "minute_other": "{{count}} minutes",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday"
+  },
+  "wallet": {
+    "connectWallet": "Connect wallet",
+    "copyWalletAddress": "Copy wallet address"
+  },
+  "warning": {
+    "currentlyInVrMode": {
+      "subtitle": "Some features have been disabled to provide a smoother experience",
+      "title": "You are now visiting a VR specific version of Lighthouse.world"
+    },
+    "eventsTiedToPlace_one": "This place is tied to {{tiedEventsCount}} event. If you delete this place, this event will also be permanently deleted.",
+    "eventsTiedToPlace_other": "This place is tied to {{tiedEventsCount}} events. If you delete this place, those events will also be permanently deleted.",
+    "eventWithPlaceThatIsNotYours": {
+      "subtitle": "If they delete this place, your event will be automatically deleted as well",
+      "title": "This place was added by another user"
+    },
+    "needExtensionToShareLocation": "Make sure you have the extension to be able to share your location with your friends.",
+    "needToSignIn": {
+      "subtitle": {
+        "follow": "You must be signed in to follow creators and explorers",
+        "generic": "You must be signed in to use this feature",
+        "interested": "You must be signed in to keep a track of events you're interested in",
+        "like": "You must be signed in to like experiences",
+        "pin": "You must be signed in to pin experiences to your gate"
+      },
+      "title": "Sign in for a richer experience!"
+    },
+    "noNotificationsSettings": {
+      "cta": "Manage Notifications",
+      "title": "You've turned off all of your notifications"
+    },
+    "noWalletUser": {
+      "cta": "Go to account settings",
+      "subtitle": "Connect it to add places and events to your gate",
+      "title": "Anything of interest tied to a wallet?"
+    },
+    "openSeaLimitation": "We can only fetch Ethereum NFTs for now. Polygon support coming soon!",
+    "requestTakesTime": "Requests may take a few days to be processed.",
+    "vrDetected": {
+      "subtitle": "We have designed a version of Lighthouse optimized for VR. Give it a try!",
+      "title": "We detect you might be using VR headset"
+    }
+  }
+}

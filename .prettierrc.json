@@ -1,0 +1,11 @@
+{
+  "trailingComma": "all",
+  "printWidth": 120,
+
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "htmlWhitespaceSensitivity": "css",
+  "arrowParens": "avoid",
+  "endOfLine": "auto",
+  "proseWrap": "never"
+}

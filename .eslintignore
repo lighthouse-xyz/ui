@@ -1,0 +1,16 @@
+node_modules
+coverage
+build
+package-lock.json
+prepare.js
+generated/
+config-overrides.js
+
+# extension
+
+dist
+extension/vite-utils
+extension/test-utils
+extension/public/manifest.json
+extension/jest.config.js
+extension/vite.config.ts
