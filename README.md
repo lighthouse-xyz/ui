@@ -1,4 +1,4 @@
-# Lighthouse's Backend Server
+# Lighthouse's UI
 
 <div>
   <img src="assets/banner.png" alt="Hyperfy Ecosystem" width="100%" />
